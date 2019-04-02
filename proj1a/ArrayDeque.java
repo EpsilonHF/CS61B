@@ -23,6 +23,7 @@ public class ArrayDeque<Type> {
         // just add item
         if (length == 1) {
             array[0] = item;
+            start = 0;
             end = 1;
         }
         else if (start != end) {
@@ -48,6 +49,7 @@ public class ArrayDeque<Type> {
         // just add element
         if (length == 1) {
             array[0] = item;
+            start = 0;
             end = 1;
         }
         else if (start != end) {
